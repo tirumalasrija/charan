@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+  margin:0px;
+  padding:0px;		
+	
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+	 
+}
+body {
+  background-color:black;	
+}
+.navbar {
+     border:0px;
+	margin-bottom:8px;
+	margin-top:4px;	
+}
+
+.navbar-toggle {
+  background-color:#CCC;	
+  
+}
+
+.nav li a{
+  color:#333;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size:18px;
+  transition: 1s;
+  -moz-transition: 1s;	
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  padding:42px 30px;
+   margin-right:70px;
+  font-family:'JaapokkiRegular';
+    
+  			
+}
+.nav li a:hover{
+    color:white;
+	background:#666 none repeat;
+	transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);	
+}
+/*----------------------------------------------SECOND-SECTION--------------------------------------*/
+.top {
+   background-image:url(../images/my/gre.jpg);
+   background-position:top;
+   background-attachment:fixed;
+   height:800px;	
+}
+.text {
+   /*margin-left:150px;*/
+   margin-top:170px;
+   float:right;
+}
+.text h1{
+	font-size:88px;
+	font-family:"Times New Roman", Times, serif;
+	margin-left:100px;
+}
+.text dt{
+   margin-left:110px;	
+}
+.banner {
+   margin-top:30px;	
+}
+.banner h1{
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;	
+  margin-top:48px;
+}
+hr {
+    display: inline-block;
+    font-size:0;
+    height: 2px;
+    width: 60px;
+    background-color:#000;
+    text-align:center;
+}
+.first-content div {
+  margin-top:70px;	
+}
+.first-content p{
+   margin-top:20px;
+   line-height:22px;
+   font-family:"Times New Roman", Times, serif;
+   font-size:18px;	
+}
+/*----------------------------------------Third section---------------------------------------*/
+hr {
+   display: inline-block;
+    font-size:0;
+    height: 2px;
+    width: 60px;
+   background-color:#999;
+}
+.one-text h4{
+	color: #999;
+    text-shadow: 2px 2px 15px black, 0 2px 15px #CCC, 0 0 0px #999;
+}
+
+/*--------------------------------------seventh-section------------------------------------*/
+.content img{
+  height:200px;
+  width:220px;
+  margin-left:60px;
+}
+.content h4{
+  margin-left:120px;
+  color:#666;
+  font-family:"Comic Sans MS", cursive;
+}
+.content p{
+    padding:8px 20px;	
+}
+.third {
+    	padding-top:60px;
+}
+.third-subject img{
+        	padding-top:40px;
+}
+.third-subject h4{
+     font-family:"Comic Sans MS", cursive;
+	 font-size:23px;
+	 padding:15px 5px;	
+}
+.fourth {
+      padding-top:60px;	
+}
+.supporters h3{
+    padding-top:70px;	
+}
+.friends-text img {
+	padding-top:50px;
+} 
+.friends-text {
+   padding-top:30px;	
+}
+
+/********************************** Contact Us CSS ********************************/
+#contactus div {
+  margin-top:15px;	
+} 
+.contact div h2 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	display:inline-block;	
+    font-size: 29px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-weight:700;
+}
+hr {
+   display: inline-block;
+    font-size:0;
+    height: 2px;
+    width: 60px;
+   background-color:#999;
+}
+.contact-content div p {
+	margin-top:18px;
+	color:#666;
+}
+.contact-content div i {
+	color:#F60;
+}
+marquee h2 {
+    color: ;
+    text-shadow: 5px 5px 15px white, 0px 0 5px #333, 0 0 2px #FFF;
+	display:inline;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.mar {
+  padding-top:50px;	
+} 
+/********************************** Footer ********************************/
+#footer {
+	padding-top: 15px;
+	padding-bottom: 16px;
+	color: #aaa;
+	background: #000;
+	margin-top:70px;
+}
+#footer a {
+	color: #eee;
+}
+#footer a:hover {
+	color: #f39c12;
+}
+#footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#footer ul > li {
+	display: inline-block;
+	margin-left: 15px;
+}
+.follow-us {
+	margin-top: -5px;
+	text-align: center;
+}
+.social-icon {
+	padding-top: 6px;
+	font-size: 16px;
+	text-align: center;
+	width: 32px;
+	height: 32px;
+	border: 2px solid #999;
+	border-radius: 50%;
+	color: #999;
+	margin: 5px;
+}
+a.social-icon:hover, a.social-icon:active, a.social-icon:focus {
+	text-decoration: none;
+	color: #f39c12;
+	border-color: #f39c12;
+}
+.centered{
+	text-align: center;
+}
+a{
+  color:#808080;
+}
+#contact .fa {
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+#contact {
+    padding: 60px 0;
+    text-align: center;
+}
+.row {
+    margin-right: 0px;
+    margin-left: -15px;
+}
+#contact .btn {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 30px;
+    background-color: #f39c12;
+    color: #333;
+    border: 0;
+}
+.fa-ul li i {
+    color: #f39c12;
+    font-size: 16px;
+    padding-right: 5px;
+}
